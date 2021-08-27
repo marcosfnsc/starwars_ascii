@@ -15,6 +15,7 @@ with open('starwars.txt', 'r') as sw_file:
             print(line, end='')
             _index += 1
         else:
+            print(line, end='')
             time.sleep(time_duration/10)
             os.system('clear')
             _index = 0
